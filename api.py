@@ -33,8 +33,8 @@ def charger_modele_de_github(nom_utilisateur, nom_repo, chemin_fichier_modele):
         return None
 
 nom_utilisateur = "Cwa19"
-nom_repo = "coura_projet7"
-chemin_fichier_modele = "best_LGBMClassifier.pkl"
+nom_repo = "Projet7_Final2"
+chemin_fichier_modele = "model/best_LGBMClassifier.pkl"
 
 model = charger_modele_de_github(nom_utilisateur, nom_repo, chemin_fichier_modele)
 
@@ -66,8 +66,8 @@ def charger_et_concatener_fichiers_github(nom_utilisateur, nom_repo, chemin_doss
 
 
 nom_utilisateur = "Cwa19"
-nom_repo = "coura_projet7"
-chemin_dossier = "."
+nom_repo = "Projet7_Final2"
+chemin_dossier = "data"
 
 taille = None #1000
 data        = charger_et_concatener_fichiers_github(nom_utilisateur, nom_repo, chemin_dossier, 'test_df', nrows=taille)
